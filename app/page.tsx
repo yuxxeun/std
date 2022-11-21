@@ -1,7 +1,14 @@
-import Image from 'next/image'
+import BaseHead from "~/components/core/BaseHead";
+import Foot from "~/components/widgets/Foot";
 
 export default function Home() {
   return (
-	<div className="grid h-screen place-items-center text-4xl ">hello everyone</div>
-	)
+    <>
+      <BaseHead />
+      <div className="grid h-screen place-items-center text-4xl ">
+        hello everyone
+      </div>
+      <Foot />
+    </>
+  );
 }
