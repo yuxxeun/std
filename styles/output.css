@@ -626,8 +626,8 @@ video {
   background-color: rgb(55 65 81 / 0.1);
 }
 
-.bg-\[url\(https\:\/\/onwidget\.com\/favicon\/favicon-32x32\.png\)\] {
-  background-image: url(https://onwidget.com/favicon/favicon-32x32.png);
+.bg-\[url\(https\:\/\/\)\] {
+  background-image: url(https://);
 }
 
 .bg-cover {
